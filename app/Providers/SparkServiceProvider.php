@@ -145,7 +145,7 @@ class SparkServiceProvider extends ServiceProvider
      */
     protected function customizeSubscriptionPlans()
     {
-         /*Spark::free()
+         Spark::free()
                  ->features([
                      'Feature 1',
                      'Feature 2',
@@ -158,7 +158,7 @@ class SparkServiceProvider extends ServiceProvider
                      'Feature 1',
                      'Feature 2',
                      'Feature 3',
-                 ]);*/
+                 ]);
 
     }
 }
